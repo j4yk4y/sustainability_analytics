@@ -18,7 +18,7 @@ Kurze Einführung in Git:
 
 Hier kommen Duediligence Items hinein:
 
--[] ...
+- ...
 
 ## Input aus Support Session vom 2022-08-18
 
