@@ -12,3 +12,14 @@ Kurze Einführung in Git:
 - git add "Dateiname.xy": Wenn eine Datei geändert wurde, muss man diesen Befehl schreiben
 - git commit -m "hier schreiben, was geändert wurde"
 - git push: Gibt den Befehl, die Änderungen in die Main Fork hochzuladen
+
+
+## Duediligence
+
+Hier kommen Duediligence Items hinein:
+
+-[] ...
+
+## Input aus Support Session vom 2022-08-18
+
+...
