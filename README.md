@@ -23,3 +23,13 @@ Hier kommen Duediligence Items hinein:
 ## Input aus Support Session vom 2022-08-18
 
 ...
+
+## Instruction to open the Dashboard
+
+```bash
+pip install -r requirements.txt
+```
+
+```python
+streamlit run app.py
+```
