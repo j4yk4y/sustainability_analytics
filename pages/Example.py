@@ -4,7 +4,7 @@ from PIL import Image
 
 #@st.cache
 def app():
-    st.title("Example")
+    st.title("Example Example")
     col1, col2 = st.columns(2)
 
     with col1:
