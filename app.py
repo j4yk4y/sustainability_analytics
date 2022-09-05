@@ -2,7 +2,7 @@ import streamlit as st
 
 # Custom imports
 from multipage import MultiPage
-from pages import Overview, Example
+from pages import Overview, Example, Map
 from PIL import Image
 
 
@@ -27,6 +27,7 @@ st.write("______")
 # Add all your applications (pages) here
 app.add_page("Overview", Overview.app)
 app.add_page("Example Page", Example.app)
+app.add_page("Map", Map.app)
 
 
 # The main app
