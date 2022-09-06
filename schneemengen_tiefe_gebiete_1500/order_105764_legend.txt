@@ -1,0 +1,40 @@
+Bundesamt für Meteorologie und Klimatologie, MeteoSchweiz
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+stn yyyyMMddHHmm
+
+stn Stationskürzel
+y   Jahr
+M   Monat
+d   Tag
+H   Stunde
+m   Minute
+
+Zeitangaben in UTC: 00:40 UTC = 02:40 Sommerzeit
+                              = 01:40 Winterzeit
+
+Zeitbezug bei Stundenwerten, sofern in der Parameterbeschreibung nicht anders vermerkt: HH  = (HH-1):01 - HH:00
+Beispiel: 13 = beinhaltet Messperiode von 12:01 bis 13:00 
+
+Fehlende Messwerte sind gekenntzeichnet mit '-'
+
+Qualitätsinformationen: Die Legende zu den Qualitätsinformationen ist zu finden unter: https://gate.meteoswiss.ch/idaweb/text/datenqualitaet_legende_de.pdf
+
+ 
+
+
+
+
+Stationen
+---------
+stn       Name                                 Parameter        Datenquelle                                        Länge/Breite             Koordinaten [km] Höhe ü. M. [m]
+HOY       Hoch-Ybrig                           hto000d0         MeteoSchweiz                                       8°47'/47°01'             702760/207630    1458
+SLF2ST    Stoos                                hto000d0         WSL-Institut für Schnee- und Lawinenforschung SLF  8°40'/46°58'             694040/203320    1280
+
+Parameter
+---------
+          Einheit                              Beschreibung
+hto000d0  cm                                   Schneehöhe; Morgenmessung von 6 UTC
+
