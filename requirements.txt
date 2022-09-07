@@ -5,3 +5,7 @@ tensorflow
 streamlit
 sklearn
 Pillow
+seaborn
+statsmodels
+pandas-datareader
+pmdarima

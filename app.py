@@ -2,7 +2,7 @@ import streamlit as st
 
 # Custom imports
 from multipage import MultiPage
-from pages import Overview, Example, Map
+from sites import Overview, Arosa, Meiringen
 from PIL import Image
 
 
@@ -18,16 +18,15 @@ with col1:
 with col2:
     st.write(" ")
     st.write(" ")
-    st.write(" ")
     image = Image.open("images/overview.png")
     st.image(image)
 
 st.write("______")
 
-# Add all your applications (pages) here
+# Add all your applications (sites) here
 app.add_page("Overview", Overview.app)
-app.add_page("Example Page", Example.app)
-app.add_page("Map", Map.app)
+app.add_page("Arosa", Arosa.app)
+app.add_page("Meiringen/Hasliberg", Meiringen.app)
 
 
 # The main app
@@ -39,13 +38,11 @@ color: blue;
 background-color: transparent;
 text-decoration: underline;
 }
-
 a:hover,  a:active {
 color: red;
 background-color: transparent;
 text-decoration: underline;
 }
-
 .footer {
 position: fixed;
 left: 0;
