@@ -22,7 +22,7 @@ def app():
 
     st.title("Overnight Stays")
 
-    st.subheader("Overnight Stays 2013 - 2022")
+    st.subheader("Overview 2013 - 2022")
 
     image = Image.open("output/overnight_chart.png")
     st.image(image)
