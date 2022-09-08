@@ -24,14 +24,28 @@ def app():
 
     st.subheader("Overview 2013 - 2022")
 
-    image = Image.open("output/overnight_chart.png")
+    image = Image.open("output/a_overnight_chart.png")
     st.image(image)
 
-    image = Image.open("output/overnight_decomp.png")
+    image = Image.open("output/a_overnight_decomp.png")
     st.image(image)
 
-    image = Image.open("output/overnight_tsa.png")
+    image = Image.open("output/a_overnight_tsa.png")
     st.image(image)
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button('PACF'):
+            image = Image.open("output/a_overnight_pacf.png")
+            st.image(image)
+        else:
+            pass
+
+    with col2:
+        if st.button('ACF'):
+            image = Image.open("output/a_overnight_acf.png")
+            st.image(image)
+        else:
+            pass
 
     st.subheader("Season Comparison")
     option = st.selectbox(
@@ -39,14 +53,14 @@ def app():
         ("Summer","Winter"))
 
     if option == "Summer":
-        image = Image.open("output/overnight_summer.png")
+        image = Image.open("output/a_overnight_s_chart.png")
         st.image(image)
-        image = Image.open("output/overnight_summer_trend.png")
+        image = Image.open("output/a_overnight_s_trend.png")
         st.image(image)
     elif option == "Winter":
-        image = Image.open("output/overnight_winter.png")
+        image = Image.open("output/a_overnight_w_chart.png")
         st.image(image)
-        image = Image.open("output/overnight_winter_trend.png")
+        image = Image.open("output/a_overnight_w_trend.png")
         st.image(image)
     else:
         st.warning("something went wrong.")

@@ -42,7 +42,7 @@ def check_stationarity(ts):
 
 
 #Overview
-df = pd.read_csv("data/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df = pd.read_csv("data/px-x-1003020000_201_20220907-163118.csv", sep=";")
 for i, row in df.iterrows():
     df.at[i,'Monat'] = monthToNum(row["Monat"])
 df["Date"] = df["Jahr"].astype(str)+"."+df["Monat"].astype(str)
@@ -73,23 +73,23 @@ y = train
 model = auto_arima(y)
 print(model)
 p = 3
-d = 0
-q = 3
+d = 1
+q = 2
 
 #D-Order
 seasonal = result.seasonal
 check_stationarity(seasonal)
-D = 0
+D = 2
 
 #P-Order
 plot_pacf(seasonal, lags=50)
 plt.show()
-P = 10
+P = 3
 
 #Q-Order
 plot_acf(seasonal, lags=50)
 plt.show()
-Q = 7
+Q = 1
 
 ARIMAmodel = ARIMA(y, order=(p, d, q))
 ARIMAmodel = ARIMAmodel.fit()
@@ -115,17 +115,17 @@ y_sarima_pred_out = y_sarima_pred_df["Predictions"]
 #Visualisation
 plt.plot(train, color = "black", label='Train')
 plt.plot(test, color = "red", label='Test')
-plt.plot(y_arima_pred_out, color='Blue', label='SARIMA Predictions')
-plt.plot(y_sarima_pred_out, color='Yellow', label='ARIMA Predictions')
+plt.plot(y_arima_pred_out, color='Blue', label='ARIMA Predictions')
+plt.plot(y_sarima_pred_out, color='Yellow', label='SARIMA Predictions')
 plt.ylabel('Overnight Stays')
 plt.xlabel('Date')
 plt.xticks(rotation=45)
-plt.title("Train/Test split for Overnight Stays in Arosa")
+plt.title("Train/Test split for Overnight Stays in Meiringen")
 plt.legend()
 plt.show()
 
 #Summer-Winter Trendline
-df_saison = pd.read_csv("data/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df_saison = pd.read_csv("data/px-x-1003020000_201_20220907-163118.csv", sep=";")
 for i, row in df_saison.iterrows():
     df_saison.at[i,'Monat'] = monthToNum(row["Monat"])
 df_saison["Date"] = df_saison["Jahr"].astype(str)+"."+df_saison["Monat"].astype(str)
@@ -135,7 +135,6 @@ for i, row in df_saison.iterrows():
         df_saison.at[i, "Saison"] = "Winter"
     else:
         df_saison.at[i, "Saison"] = "Summer"
-print(df_saison)
 sns.lineplot(x="Date", y="Logiernaechte", data=df_saison, hue="Saison")
 plt.show()
 
@@ -144,7 +143,7 @@ years = list(range(2013, 2023))
 df_winter = df_saison[df_saison["Saison"] == "Winter"]
 df_winter = df_winter.resample('Y', on='Date').sum()
 df_winter['Jahr'] = years
-df_winter = df_winter.drop(["2022-12-31"])
+df_winter = df_winter.drop(["2022-12-31", "2021-12-31", "2020-12-31"])
 sns.barplot(x="Jahr", y="Logiernaechte", data=df_winter, color="#1f77b4")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
@@ -153,12 +152,13 @@ sns.regplot(x="Jahr", y="Logiernaechte", data=df_winter, color="#1f77b4")
 plt.ylim(0,)
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
+plt.tight_layout()
 plt.show()
 
 df_summer = df_saison[df_saison["Saison"] == "Summer"]
 df_summer = df_summer.resample('Y', on='Date').sum()
 df_summer['Jahr'] = years
-df_summer = df_summer.drop(["2022-12-31"])
+df_summer = df_summer.drop(["2022-12-31", "2021-12-31", "2020-12-31"])
 sns.barplot(x="Jahr", y="Logiernaechte", data=df_summer, color="#ff7f0e")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
@@ -167,4 +167,5 @@ sns.regplot(x="Jahr", y="Logiernaechte", data=df_summer, color="#ff7f0e")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
 plt.ylim(0,)
+plt.tight_layout()
 plt.show()

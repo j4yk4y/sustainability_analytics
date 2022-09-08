@@ -16,9 +16,7 @@ with col1:
     st.title("Sustainable Analytics")
 
 with col2:
-    st.write(" ")
-    st.write(" ")
-    image = Image.open("images/overview.png")
+    image = Image.open("images/overview.jpg")
     st.image(image)
 
 st.write("______")

@@ -60,7 +60,7 @@ plt.show()
 #Decomposition
 df = df.rename(columns={"Logiernaechte": "Overnight Stays"})
 ts = df["Overnight Stays"]
-result = seasonal_decompose(ts, model='multiplicative')
+result = seasonal_decompose(ts, model='additive')
 result.plot()
 plt.show()
 
@@ -111,12 +111,14 @@ y_sarima_pred_df = y_sarima_pred.conf_int(alpha=0.05)
 y_sarima_pred_df["Predictions"] = SARIMAXmodel.predict(start=y_sarima_pred_df.index[0], end=y_sarima_pred_df.index[-1])
 y_sarima_pred_df.index = test.index
 y_sarima_pred_out = y_sarima_pred_df["Predictions"]
+print(y_sarima_pred_out)
+
 
 #Visualisation
 plt.plot(train, color = "black", label='Train')
 plt.plot(test, color = "red", label='Test')
-plt.plot(y_arima_pred_out, color='Blue', label='SARIMA Predictions')
-plt.plot(y_sarima_pred_out, color='Yellow', label='ARIMA Predictions')
+plt.plot(y_arima_pred_out, color='Blue', label='ARIMA Predictions')
+plt.plot(y_sarima_pred_out, color='Yellow', label='SARIMA Predictions')
 plt.ylabel('Overnight Stays')
 plt.xlabel('Date')
 plt.xticks(rotation=45)
@@ -135,7 +137,6 @@ for i, row in df_saison.iterrows():
         df_saison.at[i, "Saison"] = "Winter"
     else:
         df_saison.at[i, "Saison"] = "Summer"
-print(df_saison)
 sns.lineplot(x="Date", y="Logiernaechte", data=df_saison, hue="Saison")
 plt.show()
 
@@ -144,7 +145,7 @@ years = list(range(2013, 2023))
 df_winter = df_saison[df_saison["Saison"] == "Winter"]
 df_winter = df_winter.resample('Y', on='Date').sum()
 df_winter['Jahr'] = years
-df_winter = df_winter.drop(["2022-12-31"])
+df_winter = df_winter.drop(["2022-12-31", "2021-12-31", "2020-12-31"])
 sns.barplot(x="Jahr", y="Logiernaechte", data=df_winter, color="#1f77b4")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
@@ -153,12 +154,13 @@ sns.regplot(x="Jahr", y="Logiernaechte", data=df_winter, color="#1f77b4")
 plt.ylim(0,)
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
+plt.tight_layout()
 plt.show()
 
 df_summer = df_saison[df_saison["Saison"] == "Summer"]
 df_summer = df_summer.resample('Y', on='Date').sum()
 df_summer['Jahr'] = years
-df_summer = df_summer.drop(["2022-12-31"])
+df_summer = df_summer.drop(["2022-12-31", "2021-12-31", "2020-12-31"])
 sns.barplot(x="Jahr", y="Logiernaechte", data=df_summer, color="#ff7f0e")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
@@ -167,4 +169,5 @@ sns.regplot(x="Jahr", y="Logiernaechte", data=df_summer, color="#ff7f0e")
 plt.ylabel('Overnight Stays')
 plt.xlabel('Year')
 plt.ylim(0,)
+plt.tight_layout()
 plt.show()
