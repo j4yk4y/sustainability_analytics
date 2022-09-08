@@ -11,25 +11,38 @@ def app():
         st.image(image)
 
     with col2:
-        st.subheader("Overall")
-        st.write("Some very interesting text.")
+        st.title(" ")
+        image = Image.open("images/meiringen_logo.png")
+        st.image(image)
 
     st.write("--------------------")
 
-    st.title("Snow")
+    st.title("Snow Days")
+    st.subheader("Overview 1950 - 2022")
+    image = Image.open("images/Count of Snow Days in Meiringen.png")
+    st.image(image, use_column_width="always")
+
+    image = Image.open("images/TrendOfNaturalSnowMeiringen.png")
+    st.image(image, use_column_width="always")
+
+    st.write("--------------------")
+
+    st.title("Temperature")
+    st.subheader("Overview 1950 - 2022")
+    image = Image.open("images/Count of Snow Days in Arosa.png")
+    st.image(image, use_column_width="always")
+
+    image = Image.open("images/TrendOfNaturalSnowArosa.png")
+    st.image(image, use_column_width="always")
 
     st.write("--------------------")
 
     st.title("Overnight Stays")
-
     st.subheader("Overview 2013 - 2022")
-
     image = Image.open("output/m_overnight_chart.png")
     st.image(image)
-
     image = Image.open("output/m_overnight_decomp.png")
     st.image(image)
-
     image = Image.open("output/m_overnight_tsa.png")
     st.image(image)
     col1, col2 = st.columns(2)
