@@ -1,6 +1,6 @@
 # Sustainability Analytics
 
-## Kurze Einführung in Git:
+### Kurze Einführung in Git:
 
 **Init**
 ```bash
@@ -14,7 +14,7 @@ git clone https://github.com/j4yk4y/sustainability_analytics.git
 - git commit -m "hier schreiben, was geändert wurde"
 - git push: Gibt den Befehl, die Änderungen in die Main Fork hochzuladen
 
-## Instruction to open the Dashboard
+### Instruction to open the Dashboard
 
 ```bash
 pip install -r requirements.txt
@@ -24,8 +24,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Introduction
+## Report
+### Introduction
 
-## Data
+xxx
 
-## Results
+### Data
+
+xxx
+
+### Results
+
+xxx
