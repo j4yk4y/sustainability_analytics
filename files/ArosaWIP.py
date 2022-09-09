@@ -42,7 +42,7 @@ def check_stationarity(ts):
 
 
 #Overview
-df = pd.read_csv("data/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df = pd.read_csv("../data/px-x-1003020000_101_20220906-112405.csv", sep=";")
 for i, row in df.iterrows():
     df.at[i,'Monat'] = monthToNum(row["Monat"])
 df["Date"] = df["Jahr"].astype(str)+"."+df["Monat"].astype(str)
@@ -127,7 +127,7 @@ plt.legend()
 plt.show()
 
 #Summer-Winter Trendline
-df_saison = pd.read_csv("data/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df_saison = pd.read_csv("../data/px-x-1003020000_101_20220906-112405.csv", sep=";")
 for i, row in df_saison.iterrows():
     df_saison.at[i,'Monat'] = monthToNum(row["Monat"])
 df_saison["Date"] = df_saison["Jahr"].astype(str)+"."+df_saison["Monat"].astype(str)
