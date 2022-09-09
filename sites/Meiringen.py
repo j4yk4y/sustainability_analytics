@@ -7,22 +7,22 @@ def app():
     col1, col2 = st.columns(2)
 
     with col1:
-        image = Image.open("images/meiringen.jpg")
+        image = Image.open("output/meiringen.jpg")
         st.image(image)
 
     with col2:
         st.title(" ")
-        image = Image.open("images/meiringen_logo.png")
+        image = Image.open("output/meiringen_logo.png")
         st.image(image)
 
     st.write("--------------------")
 
     st.title("Snow Days")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("images/Count of Snow Days in Meiringen.png")
+    image = Image.open("output/Count of Snow Days in Meiringen.png")
     st.image(image, use_column_width="always")
 
-    image = Image.open("images/TrendOfNaturalSnowMeiringen.png")
+    image = Image.open("output/TrendOfNaturalSnowMeiringen.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")

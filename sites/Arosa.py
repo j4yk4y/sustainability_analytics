@@ -22,20 +22,20 @@ def app():
 
     st.title("Snow Days")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("images/Count of Snow Days in Arosa.png")
+    image = Image.open("output/Count of Snow Days in Arosa.png")
     st.image(image, use_column_width="always")
 
-    image = Image.open("images/TrendOfNaturalSnowArosa.png")
+    image = Image.open("output/TrendOfNaturalSnowArosa.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")
 
     st.title("Temperature")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("images/Count of Snow Days in Arosa.png")
+    image = Image.open("output/Count of Snow Days in Arosa.png")
     st.image(image, use_column_width="always")
 
-    image = Image.open("images/TrendOfNaturalSnowArosa.png")
+    image = Image.open("output/TrendOfNaturalSnowArosa.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")
