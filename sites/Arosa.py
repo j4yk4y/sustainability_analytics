@@ -32,10 +32,7 @@ def app():
 
     st.title("Temperature")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("output/Count of Snow Days in Arosa.png")
-    st.image(image, use_column_width="always")
-
-    image = Image.open("output/TrendOfNaturalSnowArosa.png")
+    image = Image.open("output/arosa_yearly_mean.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")
