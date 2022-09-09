@@ -24,6 +24,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+#### Setup
+packages from requirements.txt
+Python 3.9
+
 ## Report
 ### Introduction
 
