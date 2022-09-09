@@ -25,18 +25,32 @@ streamlit run app.py
 ```
 
 #### Setup
-packages from requirements.txt
+packages from requirements.txt\
 Python 3.9
 
 ## Report
-### Introduction
+### 1. Introduction
+xxx (xxx)
 
-xxx
+### 2. Data
+#### 2.1. Snow Days
+xxx (Remo)
 
-### Data
+#### 2.2. Temperature
+xxx (Daniel)
 
-xxx
+#### 2.3. Overnight Stays
+xxx (Simon)
 
-### Results
+### 3. Results
+#### 3.1 Snow Days
+xxx (Remo)
 
-xxx
+#### 3.2 Temperature
+xxx (Daniel)
+
+#### 3.3 Overnight Stays
+xxx (Simon)
+
+### 4. Conclusion / Reflection
+xxx (xxx)
