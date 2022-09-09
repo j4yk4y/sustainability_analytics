@@ -7,12 +7,12 @@ def app():
     col1, col2 = st.columns(2)
 
     with col1:
-        image = Image.open("output/meiringen.jpg")
+        image = Image.open("images/meiringen.jpg")
         st.image(image)
 
     with col2:
         st.title(" ")
-        image = Image.open("output/meiringen_logo.png")
+        image = Image.open("images/meiringen_logo.png")
         st.image(image)
 
     st.write("--------------------")
