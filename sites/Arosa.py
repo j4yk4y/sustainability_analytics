@@ -52,7 +52,7 @@ def app():
 
     image = Image.open("output/a_overnight_tsa.png")
     st.image(image)
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     with col1:
         if st.button('PACF'):
             image = Image.open("output/a_overnight_pacf.png")
@@ -64,6 +64,12 @@ def app():
         if st.button('ACF'):
             image = Image.open("output/a_overnight_acf.png")
             st.image(image)
+        else:
+            pass
+
+    with col3:
+        if st.button('Forecast'):
+            st.info("Work in Progress")
         else:
             pass
 
