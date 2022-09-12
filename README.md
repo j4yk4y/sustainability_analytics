@@ -40,7 +40,7 @@ xxx (Remo)
 xxx (Daniel)
 
 #### 2.3. Overnight Stays
-For overnight stays, data was drawn from the STAT-TAB of the Federal Statistical Office.
+For overnight stays, data was drawn from the [STAT-TAB](https://www.bfs.admin.ch/bfs/en/home/services/recherche/stat-tab-online-data-search.html) of the Federal Statistical Office.
 This tool was used to download the number of overnight stays in Arosa and Meiringen on a monthly basis between 2013 and 2022.
 For the analysis, the data from Meiringen and Hasliberg was also added together, as it is a ski region.
 First, a time series was formed, which was broken down into trend, seasonality and noise.
