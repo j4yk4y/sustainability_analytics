@@ -30,51 +30,60 @@ Python 3.9
 
 ## Report
 ### 1. Introduction
-xxx (xxx)
-
-#### 1.1. SDGs 
-xxx (xxx)
-
-#### 1.2 Indicators in another framework
-xxx (xxx)
-
-#### 1.3 relevant regulations
-xxx (xxx)
-
-#### 1.4 Sustainability trends
-xxx (xxx)
-
-### 2. Data
-#### 2.1. Snow Days
-xxx (Remo)
-
-#### 2.2. Temperature
 xxx (Daniel)
 
-#### 2.3. Overnight Stays
+#### 1.1. SDGs 
+xxx (Daniel)
+
+#### 1.2 Indicators in another framework
+xxx (alle)
+
+#### 1.3 relevant regulations
+xxx (Simon)
+
+#### 1.4 Sustainability trends
+xxx (Simon)
+
+### 2. Methods
+#### 2.1 Stakeholder Analysis and 
+xxx (Daniel)
+
+#### 2.2 System Dynamics
+xxx (Simon)
+loopy
+
+### 3. Data
+#### 3.1. Snow Days
+xxx (Remo)
+
+#### 3.2. Temperature
+xxx (Daniel)
+
+#### 3.3. Overnight Stays
 For overnight stays, data was drawn from the [STAT-TAB](https://www.bfs.admin.ch/bfs/en/home/services/recherche/stat-tab-online-data-search.html) of the Federal Statistical Office.
 This tool was used to download the number of overnight stays in Arosa and Meiringen on a monthly basis between 2013 and 2022.
 For the analysis, the data from Meiringen and Hasliberg was added together, as it is a combined ski region.
 First, a time series was formed, which was broken down into trend, seasonality and noise.
 
-### 3. Results
-#### 3.1 Snow Days
+### 4. Results
+#### 4.1 Snow Days
 xxx (Remo)
 
-#### 3.2 Temperature
+#### 4.2 Temperature
 xxx (Daniel)
 
-#### 3.3 Overnight Stays
+#### 4.3 Overnight Stays
 xxx (Simon)
 
-### 4. Conclusion
-xxx (xxx)
+### 5. Conclusion
+#### 5.1. Outlook
+xxx (Remo)
 
-#### 4.1. Outlook
-xxx (xxx)
+#### 5.2. Limitations
+xxx (Remo)
 
-#### 4.2. Reflection/Learnings
-xxx (xxx)
+#### 5.3. Reflection/Learnings
+xxx (Wer Lust hat)
 
 ## Requirements
 - Contain results (don't aspire too high)
