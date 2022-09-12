@@ -42,7 +42,7 @@ xxx (alle)
 xxx (Simon)
 
 #### 1.4 Sustainability trends
-xxx (Simon)
+xxx (Simon) 
 
 ### 2. Methods
 #### 2.1 Stakeholder Analysis and 
