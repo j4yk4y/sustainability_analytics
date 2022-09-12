@@ -42,7 +42,7 @@ def check_stationarity(ts):
 
 
 #Overview
-df = pd.read_csv("../analytics/overnight/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df = pd.read_csv("px-x-1003020000_201_20220907-163118.csv", sep=";")
 for i, row in df.iterrows():
     df.at[i,'Monat'] = monthToNum(row["Monat"])
 df["Date"] = df["Jahr"].astype(str)+"."+df["Monat"].astype(str)
@@ -60,7 +60,7 @@ plt.show()
 #Decomposition
 df = df.rename(columns={"Logiernaechte": "Overnight Stays"})
 ts = df["Overnight Stays"]
-result = seasonal_decompose(ts, model='additive')
+result = seasonal_decompose(ts, model='multiplicative')
 result.plot()
 plt.show()
 
@@ -73,23 +73,23 @@ y = train
 model = auto_arima(y)
 print(model)
 p = 3
-d = 0
-q = 3
+d = 1
+q = 2
 
 #D-Order
 seasonal = result.seasonal
 check_stationarity(seasonal)
-D = 0
+D = 2
 
 #P-Order
 plot_pacf(seasonal, lags=50)
 plt.show()
-P = 10
+P = 3
 
 #Q-Order
 plot_acf(seasonal, lags=50)
 plt.show()
-Q = 7
+Q = 1
 
 ARIMAmodel = ARIMA(y, order=(p, d, q))
 ARIMAmodel = ARIMAmodel.fit()
@@ -111,8 +111,6 @@ y_sarima_pred_df = y_sarima_pred.conf_int(alpha=0.05)
 y_sarima_pred_df["Predictions"] = SARIMAXmodel.predict(start=y_sarima_pred_df.index[0], end=y_sarima_pred_df.index[-1])
 y_sarima_pred_df.index = test.index
 y_sarima_pred_out = y_sarima_pred_df["Predictions"]
-print(y_sarima_pred_out)
-
 
 #Visualisation
 plt.plot(train, color = "black", label='Train')
@@ -122,12 +120,12 @@ plt.plot(y_sarima_pred_out, color='Yellow', label='SARIMA Predictions')
 plt.ylabel('Overnight Stays')
 plt.xlabel('Date')
 plt.xticks(rotation=45)
-plt.title("Train/Test split for Overnight Stays in Arosa")
+plt.title("Train/Test split for Overnight Stays in Meiringen")
 plt.legend()
 plt.show()
 
 #Summer-Winter Trendline
-df_saison = pd.read_csv("../analytics/overnight/px-x-1003020000_101_20220906-112405.csv", sep=";")
+df_saison = pd.read_csv("px-x-1003020000_201_20220907-163118.csv", sep=";")
 for i, row in df_saison.iterrows():
     df_saison.at[i,'Monat'] = monthToNum(row["Monat"])
 df_saison["Date"] = df_saison["Jahr"].astype(str)+"."+df_saison["Monat"].astype(str)
