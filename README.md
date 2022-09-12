@@ -32,6 +32,18 @@ Python 3.9
 ### 1. Introduction
 xxx (xxx)
 
+#### 1.1. SDGs 
+xxx (xxx)
+
+#### 1.2 Indicators in another framework
+xxx (xxx)
+
+#### 1.3 relevant regulations
+xxx (xxx)
+
+#### 1.4 Sustainability trends
+xxx (xxx)
+
 ### 2. Data
 #### 2.1. Snow Days
 xxx (Remo)
@@ -55,7 +67,13 @@ xxx (Daniel)
 #### 3.3 Overnight Stays
 xxx (Simon)
 
-### 4. Conclusion / Reflection
+### 4. Conclusion
+xxx (xxx)
+
+#### 4.1. Outlook
+xxx (xxx)
+
+#### 4.2. Reflection/Learnings
 xxx (xxx)
 
 ## Requirements
