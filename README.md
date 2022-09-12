@@ -57,3 +57,14 @@ xxx (Simon)
 
 ### 4. Conclusion / Reflection
 xxx (xxx)
+
+## Requirements
+- Contain results (don't aspire too high)
+- Contain results based on adequate data 
+- Use appropriate methods and justify the choice 
+- Refer to the relevant SDGs or indicators in another framework 
+- Consider the relevant regulations and sustainability trends 
+- Critically discuss the significance and the relevance of the results 
+- Contain an outlook, showing 
+- how to address the shortcomings of the preliminary results, and 
+- which follow-up issues can be solved using which method 
