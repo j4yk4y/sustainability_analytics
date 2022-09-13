@@ -35,8 +35,26 @@ For this reason, the Arosa and Meiringen / Hasliberg Ski Resorts have kindly ask
 
 This report summarizes the first iteration of the project, which includes a presentation about the general settings and the framework of the project, applied methods for a structural analysis of stakeholders and context, gathered data about snow fall, temperature and overnight stays in the analyzed regions as well as the presentation of the Dashboard MVP with initial results of the visual data analysis and as a last step, limitations and next steps to be taken.
 
-#### 1.1. SDGs 
-xxx (Daniel)
+#### 1.1. SDGs (Daniel)
+When it comes to sustainability, the overarching framework all measures should be oriented on are the 17 Sustainable Development Goals (SDGs) defined by the UN. This Framework of development goals was finally accepted by all member-countries of the UN in 2015 and acts as a blueprint for peace and prosperity for people and the planet. The 17 goals consist of 169 targets, which all ratifying countries should aim for until 2030. 
+In the context of this project, we also want to orientate on the SDGs and identified several of them as strongly interconnected with the alpine recreational context, which are the following:
+
+**- Goal 13: Climate Action**
+**- Goal 9:  Industry, Innovation and Infrastructure**
+**- Goal 12: Responsible Consumption and Production**
+**- Goal 15: Life on Land**
+
+**Climate Action**
+Climate Action is one of the main topics of sustainable development. The topic summarizes everything in the context of environmental protection and global warming, one of the biggest challenges of humanity ever. This man-made problem needs to be solved and taken seriously, which is also our responsibility and overarching thread of this project.
+
+**Industry, Innovation and Infrastructure**
+Since changing the status quo and solving challenges with smart solutions asks for innovative ideas and products, this SDG is also clearly part of the path to sustainable alpine tourism. Impact can be generated through both innovative ideas and approaches to tourism and it's future form in general, but also with efficient and sophisticated solutions that minimize environmental impact through efficiency and indulgent utilization of resources. 
+
+**Responsible Consumption and Production**
+Tourism is one form of consumption, that most people in our modern society conduct. As stated above, about 8% of the global emission are routed here. Offering sustainable products, both physical and emotional, combined with a responsible consumption and use of recreational opportunities leads to an overall more sustainable future.
+
+**Life on Land**
+Alpine regions and ski resorts are situated around mountains, in this case within the alps. This region largely defines the swiss geography and landscape, offers immense economical and touristic value while also serving as home to great numbers of individual species and biodiversity. Maintaining this balance of interests, which means both protecting the home of an abundance of animals and plants, while also allowing residents and society to enjoy and utilize the great potential of mountainous regions. This balance is crucial for sustainability within alpine regions and in the interest of all. 
 
 #### 1.2 Indicators in another framework
 xxx (alle)
@@ -48,7 +66,7 @@ xxx (Simon)
 xxx (Simon) 
 
 ### 2. Methods
-#### 2.1 Stakeholder Analysis and 
+#### 2.1 Stakeholder Analysis (Daniel)
 xxx (Daniel)
 
 #### 2.2 System Dynamics
@@ -59,7 +77,7 @@ loopy
 #### 3.1. Snow Days
 xxx (Remo)
 
-#### 3.2. Temperature
+#### 3.2. Temperature (Daniel)
 xxx (Daniel)
 
 #### 3.3. Overnight Stays
