@@ -75,9 +75,11 @@ xxx (Simon)
 #### 2.1 Stakeholder Analysis (Daniel)
 The overall framework of the project also includes a variety of stakeholders with different interests and goals. To picture the different groups, we created a Stakeholder-map:
 <br>
+
 ![Stakeholders](sites/images/Stakeholder_Map.png)
 
-The map is split into three overall categories: direct, indirect and unintended Stakeholders. These groups are then again split into three categories of their relationship towards the project: accountable, to be consulted and to be informed. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. 
+The map is split into three overall categories: **direct, indirect and unintended Stakeholders**. These groups are then again split into three categories of their relationship towards the project: **accountable, to be consulted and to be informed**. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. Other important stakeholders are tourists and guests that visit the resorts in both summer and winter as well as local businesses, that are dependent on those guests in combination with what the resorts can offer. Next to that, wildlife, environmental organizations and society in general are also affected and should clearly be taken into account when designing potential future solutions.
+<br>
 
 #### 2.2 System Dynamics
 xxx (Simon)
@@ -88,7 +90,7 @@ loopy
 xxx (Remo)
 
 #### 3.2. Temperature (Daniel)
-xxx (Daniel)
+Temperature data was extracted from the dataportal of MeteoSwiss, the swiss federal office for meteorology and climatology. Through the [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741) portal data can be accessed, filtered and downloaded. The  data on temperature used for the first stage of the analysis consists of measures of the minimum temperature on any given day measured two meters above ground, from the year 1950 until the end of 2021 in Arosa and 1958 until the end of 2021 in Meiringen / Hasliberg. The reason for using the daily minimum temperature instead of the daily average or any other available measure, lies in the future potential to use the downloaded data to estimate potential for the use of snow cannons on the given days. 
 
 #### 3.3. Overnight Stays
 For overnight stays, data was drawn from the [STAT-TAB](https://www.bfs.admin.ch/bfs/en/home/services/recherche/stat-tab-online-data-search.html) of the Federal Statistical Office.
