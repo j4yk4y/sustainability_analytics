@@ -104,7 +104,23 @@ xxx (Remo)
 xxx (Daniel)
 
 #### 4.3 Overnight Stays
-xxx (Simon)
+##### Arosa
+![Arosa_Decomp](sites/output/a_overnight_decomp.png)
+
+
+Summer             |  Winter
+:-------------------------:|:-------------------------:
+![](sites/output/a_overnight_s_trend.png)  |  ![](sites/output/a_overnight_w_trend.png)
+
+
+##### Meiringen/Hasliberg
+![Arosa_Decomp](sites/output/m_overnight_decomp.png)
+
+
+Summer             |  Winter
+:-------------------------:|:-------------------------:
+![](sites/output/m_overnight_s_trend.png)  |  ![](sites/output/m_overnight_w_trend.png)
+
 
 ### 5. Conclusion
 #### 5.1. Outlook
