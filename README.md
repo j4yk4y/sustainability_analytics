@@ -73,7 +73,11 @@ xxx (Simon)
 
 ### 2. Methods
 #### 2.1 Stakeholder Analysis (Daniel)
-xxx (Daniel)
+The overall framework of the project also includes a variety of stakeholders with different interests and goals. To picture the different groups, we created a Stakeholder-map:
+<br>
+![Stakeholders](/images/Stakeholder_Map.png)
+
+The map is split into three overall categories: direct, indirect and unintended Stakeholders. These groups are then again split into three categories of their relationship towards the project: accountable, to be consulted and to be informed. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. 
 
 #### 2.2 System Dynamics
 xxx (Simon)

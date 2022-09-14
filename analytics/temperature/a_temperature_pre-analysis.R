@@ -14,7 +14,7 @@ library(ggfortify)
 # data_A = Arosa            temperature
 # data_M = Meiringen        temperature & snow
 
-data_A <- read.csv("temperatur_arosa_tagesminimum_1950/order_105752_data.csv", header = TRUE, sep = ";")
+data_A <- read.csv("analytics/temperature/temperatur_arosa_tagesminimum_1950/order_105752_data.csv", header = TRUE, sep = ";")
 #data_M <- read.csv("order105773/order_105773_data.txt", header = TRUE, sep = ";")
 
 #PRE-ANALYSIS AROSA
