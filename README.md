@@ -106,7 +106,21 @@ For each season, the trend between 2013 and 2019 was analyzed. The years affecte
 xxx (Remo)
 
 #### 4.2 Temperature
-xxx (Daniel)
+The Analysis of the temperature was conducted through an aggregation as a mean of all temperature measurements within any given year. The resulting datapoints were then plotted and visually analyzed for obvious patterns. 
+
+##### 4.2.1 Arosa
+![Arosa_Temperature](sites/output/a_yearly_mean_temp.png)
+<br>
+
+The data on temperature in Arosa shows a very clear upwards-trend in the last decades. This trend is seems very strong and almost linear in a long term view. Average yearly minimum temperature has increased from about -1.4°C in 1950 to about 1.4°C degrees in 2021. 
+<br>
+
+##### 4.2.2 Meiringen / Hasliberg
+![Arosa_Temperature](sites/output/m_yearly_mean_temp.png)
+<br>
+
+The data on temperature in Meiringen draws a different picture than in Arosa. Although a slight temperature increase from a yearly minimum average of about 4.2°C to about 4.3°C is visible, there is no clear upwards trend but rather a constant development of the temperature observable over the years. The underlying reasons for this behaviour are not clear at this point of time and require further investigation in the future.
+<br>
 
 #### 4.3 Overnight Stays
 ##### 4.3.1. Arosa
