@@ -107,7 +107,6 @@ xxx (Daniel)
 ##### Arosa
 ![Arosa_Decomp](sites/output/a_overnight_decomp.png)
 
-
 Summer             |  Winter
 :-------------------------:|:-------------------------:
 ![](sites/output/a_overnight_s_trend.png)  |  ![](sites/output/a_overnight_w_trend.png)
