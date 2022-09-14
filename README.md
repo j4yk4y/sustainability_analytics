@@ -30,7 +30,7 @@ Python 3.9
 
 ## Report - Sustainable Ski Resorts - Arosa & Meiringen / Haslital
 ### 1. Introduction to the topic (Daniel)
-During recent times, everyone can feel the impact of global warming on the planet and our everyday lifes. Although western societies are privileged in terms of their capacities and resources to take measures against global warming, they are also highly responsible to do so- mainly, because they emitted a large portion of the artificially released atmospheric greenhouse gases, both in the past and today. According to Lenzen et al. (2018) global tourism is the source of about 8% of human-made $CO_{2}$ emissions, with growing tendency. Although the share of alpine tourism to that number is not fully clear, it is one of the main touristic branches in Switzerland and therefore offers potential for our society to have an impact on global emission reduction. Furthermore, it has an impact on regional biodiversity, energy consumption, noise pollution, water usage as well as contamination levels of soil and ground. At the same time, tourism is one of the main sources of income for many people, also in Switzerland.
+During recent times, everyone can feel the impact of global warming on the planet and our everyday lifes. Although western societies are privileged in terms of their capacities and resources to take measures against global warming, they are also highly responsible to do so- mainly, because they emitted a large portion of the artificially released atmospheric greenhouse gases, both in the past and today. According to Lenzen et al. (2018) global tourism is the source of about 8% of human-made CO<sub>2</sub> emissions, with growing tendency. Although the share of alpine tourism to that number is not fully clear, it is one of the main touristic branches in Switzerland and therefore offers potential for our society to have an impact on global emission reduction. Furthermore, it has an impact on regional biodiversity, energy consumption, noise pollution, water usage as well as contamination levels of soil and ground. At the same time, tourism is one of the main sources of income for many people, also in Switzerland.
 For this reason, the Arosa and Meiringen / Hasliberg Ski Resorts have kindly asked us to support with data generation and analysis in order to take and control measures, understand correlations and steer investments towards a more sustainable and future-oriented vision of recreational alpine areas, with  minimized environmental impact and maximized economical and societal benefit.
 
 This report summarizes the first iteration of the project, which includes a presentation about the general settings and the framework of the project, applied methods for a structural analysis of stakeholders and context, gathered data about snow fall, temperature and overnight stays in the analyzed regions as well as the presentation of the Dashboard MVP with initial results of the visual data analysis and as a last step, limitations and next steps to be taken.
@@ -83,7 +83,8 @@ The map is split into three overall categories: **direct, indirect and unintende
 
 #### 2.2 System Dynamics
 xxx (Simon)
-loopy
+
+[Loopy](https://ncase.me/loopy/v1.1/?data=[[[1,682,97,0.5,%22Snow%2520Machines%22,5],[2,357,173,0.5,%22Snow%2520Shortage%22,1],[3,566,293,0.16,%22Water%2520Consumption%22,0],[4,1014,353,0.5,%22Flora%2520Growth%22,3],[5,941,200,0.16,%22Acidic%2520Soil%22,0],[6,794,331,0.16,%22Noise%2520Pollution%22,0],[7,743,554,0.5,%22Healthy%2520Wildlife%2520%252F%2520Nature%22,3],[8,306,579,0.5,%22Tourism%22,5],[9,161,767,0.5,%22Investors%22,5],[10,524,817,0.5,%22Local%2520Employment%22,3],[11,909,752,0.5,%22Economoc%2520Success%22,1],[12,1079,78,0.16,%22Energy%2520Consumption%22,0]],[[1,3,34,1,0],[1,6,-25,1,0],[2,1,49,1,0],[1,2,26,-1,0],[1,5,51,1,0],[5,4,33,-1,0],[4,7,127,1,0],[6,7,22,-1,0],[3,7,-102,-1,0],[7,8,59,1,0],[8,9,22,1,0],[9,10,37,1,0],[10,11,-34,1,0],[2,8,-21,-1,0],[1,12,43,1,0],[12,11,345,-1,0]],[[1372,812,%22Orange%253A%2520Input%2520and%2520Output%2520Variable%250AGreen%253A%2520Positive%2520Variable%250ARed%253A%2520Negative%2520Variable%250APurple%253A%2520Neutral%2520Variable%22]],12%5D)
 
 ### 3. Data
 #### 3.1. Snow Days
@@ -97,6 +98,8 @@ For overnight stays, data was drawn from the [STAT-TAB](https://www.bfs.admin.ch
 This tool was used to download the number of overnight stays in Arosa and Meiringen on a monthly basis between 2013 and 2022.
 For the analysis, the data from Meiringen and Hasliberg was added together, as it is a combined ski region.
 First, a time series was formed, which was broken down into trend, seasonality and noise.
+Furthermore, an additional "season" variable was created. This shows whether a month is a winter or summer month. May to October is defined as summer and November to April as winter.
+For each season, the trend between 2013 and 2019 was analyzed. The years affected by the corona pandemic were intentionally omitted because they are highly divergent due to external influences. 
 
 ### 4. Results
 #### 4.1 Snow Days
@@ -106,7 +109,7 @@ xxx (Remo)
 xxx (Daniel)
 
 #### 4.3 Overnight Stays
-##### Arosa
+##### 4.3.1. Arosa
 ![Arosa_Decomp](sites/output/a_overnight_decomp.png)
 
 Summer             |  Winter
@@ -114,7 +117,7 @@ Summer             |  Winter
 ![](sites/output/a_overnight_s_trend.png)  |  ![](sites/output/a_overnight_w_trend.png)
 
 
-##### Meiringen/Hasliberg
+##### 4.3.2. Meiringen/Hasliberg
 ![Arosa_Decomp](sites/output/m_overnight_decomp.png)
 
 
