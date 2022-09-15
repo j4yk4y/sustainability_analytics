@@ -80,9 +80,12 @@ The overall framework of the project also includes a variety of stakeholders wit
 The map is split into three overall categories: direct, indirect and unintended Stakeholders. These groups are then again split into three categories of their relationship towards the project: accountable, to be consulted and to be informed. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. 
 
 #### 2.2 System Dynamics
-xxx (Simon)
-
-[Loopy](https://ncase.me/loopy/v1.1/?data=[[[1,682,97,0.5,%22Snow%2520Machines%22,5],[2,357,173,0.5,%22Snow%2520Shortage%22,1],[3,566,293,0.16,%22Water%2520Consumption%22,0],[4,1014,353,0.5,%22Flora%2520Growth%22,3],[5,941,200,0.16,%22Acidic%2520Soil%22,0],[6,794,331,0.16,%22Noise%2520Pollution%22,0],[7,743,554,0.5,%22Healthy%2520Wildlife%2520%252F%2520Nature%22,3],[8,306,579,0.5,%22Tourism%22,5],[9,161,767,0.5,%22Investors%22,5],[10,524,817,0.5,%22Local%2520Employment%22,3],[11,909,752,0.5,%22Economoc%2520Success%22,1],[12,1079,78,0.16,%22Energy%2520Consumption%22,0]],[[1,3,34,1,0],[1,6,-25,1,0],[2,1,49,1,0],[1,2,26,-1,0],[1,5,51,1,0],[5,4,33,-1,0],[4,7,127,1,0],[6,7,22,-1,0],[3,7,-102,-1,0],[7,8,59,1,0],[8,9,22,1,0],[9,10,37,1,0],[10,11,-34,1,0],[2,8,-21,-1,0],[1,12,43,1,0],[12,11,345,-1,0]],[[1372,812,%22Orange%253A%2520Input%2520and%2520Output%2520Variable%250AGreen%253A%2520Positive%2520Variable%250ARed%253A%2520Negative%2520Variable%250APurple%253A%2520Neutral%2520Variable%22]],12%5D)
+As a continuation of the stakeholder analysis, the relationships between the various stakeholders can be modeled. In this report, we have created a system model to show the impact of snow shortage on the economic success of a region. 
+Affected stakeholders and processes in the social, industrial, and environmental sectors have been considered.
+In the model the input and output variable is colored orange, the positive nodes are colored green, the negative nodes are colored red and the neutral nodes are colored purple.
+<br>
+Under the following link the simulation can be started: [Loopy](https://ncase.me/loopy/v1.1/?data=[[[1,1073,68,0.5,%22Snow%2520Machines%22,5],[2,913,288,0.5,%22Snow%2520Shortage%22,1],[3,653,246,0.16,%22Water%2520Consumption%22,0],[4,1353,516,0.5,%22Flora%2520Growth%22,3],[5,1453,232,0.16,%22Acidic%2520Soil%22,0],[6,1283,297,0.16,%22Noise%2520Pollution%22,0],[7,907,502,0.5,%22Healthy%2520Wildlife%2520%252F%2520Nature%22,3],[8,573,517,0.5,%22Tourism%22,5],[9,217,770,0.5,%22Investors%22,5],[10,612,745,0.5,%22Local%2520Employment%22,3],[11,896,710,0.5,%22Economoc%2520Success%22,1],[12,524,146,0.16,%22Energy%2520Consumption%22,0],[13,304,389,0.16,%22Financial%2520Cost%22,0]],[[1,3,34,1,0],[1,6,-25,1,0],[2,1,49,1,0],[1,2,26,-1,0],[1,5,51,1,0],[5,4,33,-1,0],[4,7,127,1,0],[6,7,22,-1,0],[3,7,-102,-1,0],[7,8,59,1,0],[8,9,22,1,0],[9,10,37,1,0],[10,11,-34,1,0],[2,8,-21,-1,0],[1,12,43,1,0],[12,13,-296,1,0],[3,13,-310,1,0],[13,9,-78,-1,0],[9,8,362,1,0],[8,6,19,1,0]],[[1478,696,%22Orange%253A%2520Input%2520and%2520Output%2520Variable%250AGreen%253A%2520Positive%2520Variable%250ARed%253A%2520Negative%2520Variable%250APurple%253A%2520Neutral%2520Variable%22],[1015,300,%22Input%22],[1026,719,%22Output%22]],13%5D)
+![Stakeholders](sites/output/loopy_system_dynamics.png)
 
 ### 3. Data
 #### 3.1. Snow Days
@@ -107,15 +110,19 @@ xxx (Remo)
 xxx (Daniel)
 
 #### 4.3 Overnight Stays
-##### 4.3.1. Arosa
+**Arosa**
+<br>
+
 ![Arosa_Decomp](sites/output/a_overnight_decomp.png)
+
 
 Summer             |  Winter
 :-------------------------:|:-------------------------:
 ![](sites/output/a_overnight_s_trend.png)  |  ![](sites/output/a_overnight_w_trend.png)
 
 
-##### 4.3.2. Meiringen/Hasliberg
+**Meiringen/Hasliberg**
+i<br>
 ![Arosa_Decomp](sites/output/m_overnight_decomp.png)
 
 
