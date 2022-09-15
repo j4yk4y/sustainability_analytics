@@ -36,11 +36,8 @@ Alpine regions and ski resorts are situated around mountains, in this case withi
 #### 1.2 Indicators in another framework
 xxx (alle)
 
-#### 1.3 relevant regulations
-xxx (Simon)
-
 #### 1.4 Sustainability trends
-xxx (Simon) 
+This project will touch on some sustainability trends. On the one hand, there is the global trend to reduce greenhouse gas emission in order to mitigate climate change. On the other hand there is ESG Investing that promotes sustainability through business. Ski resorts are strongly affected by both trends, as they rely on a lot of energy to operate the chairlifts and produce artificial snow, especially in winter. Moreover, it is important for the whole region to find investors. As ESG investing becomes more and more important, innovative solutions that combine sustainability and business success are needed.
 
 ### 2. Methods
 #### 2.1 Stakeholder Analysis (Daniel)
@@ -53,9 +50,7 @@ The map is split into three overall categories: **direct, indirect and unintende
 <br>
 
 #### 2.2 System Dynamics
-As a continuation of the stakeholder analysis, the relationships between the various stakeholders can be modeled. In this report, we have created a system model to show the impact of snow shortage on the economic success of a region. 
-Affected stakeholders and processes in the social, industrial, and environmental sectors have been considered.
-In the model the input and output variable is colored orange, the positive nodes are colored green, the negative nodes are colored red and the neutral nodes are colored purple.
+As a continuation of the stakeholder analysis, the relationships between the various stakeholders can be modeled. In this report, we have created a system model to show the impact of snow shortage on the economic success of a region. Affected stakeholders and processes in the social, industrial, and environmental sectors have been considered. In the model the input and output variable is colored orange, the positive nodes are colored green, the negative nodes are colored red and the neutral nodes are colored purple.
 <br>
 Under the following link the simulation can be started: [Loopy](https://ncase.me/loopy/v1.1/?data=[[[1,1073,68,0.5,%22Snow%2520Machines%22,5],[2,913,288,0.5,%22Snow%2520Shortage%22,1],[3,653,246,0.16,%22Water%2520Consumption%22,0],[4,1353,516,0.5,%22Flora%2520Growth%22,3],[5,1453,232,0.16,%22Acidic%2520Soil%22,0],[6,1283,297,0.16,%22Noise%2520Pollution%22,0],[7,907,502,0.5,%22Healthy%2520Wildlife%2520%252F%2520Nature%22,3],[8,573,517,0.5,%22Tourism%22,5],[9,217,770,0.5,%22Investors%22,5],[10,612,745,0.5,%22Local%2520Employment%22,3],[11,896,710,0.5,%22Economoc%2520Success%22,1],[12,524,146,0.16,%22Energy%2520Consumption%22,0],[13,304,389,0.16,%22Financial%2520Cost%22,0]],[[1,3,34,1,0],[1,6,-25,1,0],[2,1,49,1,0],[1,2,26,-1,0],[1,5,51,1,0],[5,4,33,-1,0],[4,7,127,1,0],[6,7,22,-1,0],[3,7,-102,-1,0],[7,8,59,1,0],[8,9,22,1,0],[9,10,37,1,0],[10,11,-34,1,0],[2,8,-21,-1,0],[1,12,43,1,0],[12,13,-296,1,0],[3,13,-310,1,0],[13,9,-78,-1,0],[9,8,362,1,0],[8,6,19,1,0]],[[1478,696,%22Orange%253A%2520Input%2520and%2520Output%2520Variable%250AGreen%253A%2520Positive%2520Variable%250ARed%253A%2520Negative%2520Variable%250APurple%253A%2520Neutral%2520Variable%22],[1015,300,%22Input%22],[1026,719,%22Output%22]],13%5D)
 <br>
@@ -123,7 +118,7 @@ Summer             |  Winter
 
 **Meiringen/Hasliberg**
 <br>
-In Meiringen and Hasliberg the summer and winter season have peaks around 22,250 overnight stays. Because the summer season is slightly longer, there are more overnight stays in this period. In addition, there is a difference between spring and autumn in this region. In spring there are significantly higher numbers of overnight stays than in autumn, which can also be considered in the seasonal component.
+In Meiringen and Hasliberg the summer and winter season have peaks around 22,250 overnight stays. Because summer season is slightly longer, there are more overnight stays in this period. In addition, there is a difference between spring and autumn in this region. In spring there are significantly higher numbers of overnight stays than in autumn, which can also be considered in the seasonal component.
 <br><br>
 ![Meiringen_Decomp](sites/output/m_overnight_decomp.png)
 <br>
