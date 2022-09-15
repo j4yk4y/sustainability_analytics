@@ -5,7 +5,6 @@ from multipage import MultiPage
 from sites import Overview, Arosa, Meiringen
 from PIL import Image
 
-
 # Create an instance of the app
 app = MultiPage()
 
