@@ -84,6 +84,7 @@ For each season, the trend between 2013 and 2019 was analyzed. The years affecte
 In order to analyse the snow factor for tourisitc regions like Meiringen and Arosa, we are not particullarly interested in the total amount of snow, but rather the count of days, on which winter sports are possible. In general, winter sports is possible from 40 cm of natural snow and 20 cm of technical snow onwards ([source](https://www.slf.ch/de/schnee/schneesport/schnee-und-ressourcenmanagement/pistenpraeparation.html)).
 The data dates back to 1950 for Arosa and 1960 for Meiringen. The data for Arosa was quite incomplete and offered much fewer data points in summer. We used interpolation for missing values to counter this behaviour.
 ![Count of Snow Days Arosa](sites/output/Count%20of%20Snow%20Days%20in%20Arosa.png)
+![Count of Snow Days Meiringen](sites/output/Count of Snow Days in Meiringen.png)
 Looking at the graphs, it is clear that a regression analyses was obsolete since there seems to be a heavy change in behaviour at around 1980 for both Arosa and Meiringen. Therefore, regression and time-series analysis are off the table and would not add additional insight.
 The count of snow days in both locations are decreasing substantially since 1980. Possible explanations for this behaviour will be discussed and analysed in the coming sections. (Remo)
 
