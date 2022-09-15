@@ -151,7 +151,8 @@ Furthermore, the need for snow canons will naturally increase, which is very ene
 With the work presented we visualize the trends which affect the touristic regions Meiringen and Arosa. These insights are very useful for investors and are beneficial for the SDGs. However, there are other measurements which should be considered instead of the daily minimum of temperature. For example, the daily average will possibly yeald more accurate results in the analysis. Furthermore, this study does not include any indirect and direct effects of historical changes in wind directions.
 
 #### 5.3. Reflection/Learnings
-xxx (Wer Lust hat)
+This report was very insightful and important to us. We understand, that in order to change the world for the better, it is not only wishful-thinking that helps us out of the climat crisis but rather improving complex systems. For this reason, we also focused on the role of the investors in this complex system and show them not only economic reasons, but also environmental reasons not to invest in technical snow and resource hungry assets.
+We learned, that complex systems need to be assesed very carefully before making reccomendations. Furthermore, data is not always in good shape, even if it is collected by an official, trustworthy institution like MeteoSchweiz. Improving data quality of susch vast amounts of data is a challenge in itself.
 
 
 ## Appendix
