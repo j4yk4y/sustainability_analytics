@@ -91,7 +91,10 @@ Under the following link the simulation can be started: [Loopy](https://ncase.me
 
 ### 3. Data
 #### 3.1. Snow Days
-xxx (Remo)
+In order to analyse the snow factor for tourisitc regions like Meiringen and Arosa, we are not particullarly interested in the total amount of snow, but rather the count of days, on which winter sports are possible. In general, winter sports is possible from 40 cm of natural snow and 20 cm of technical snow onwards ([source](https://www.slf.ch/de/schnee/schneesport/schnee-und-ressourcenmanagement/pistenpraeparation.html)).
+The data dates back to 1950 for Arosa and 1960 for Meiringen. The data for Arosa was quite incomplete and offered much fewer data points in summer. We used interpolation for missing values to counter this behaviour.
+Looking at the graphs, it is clear that a regression analyses was obsolete since there seems to be a heavy change in behaviour at around 1980 for both Arosa and Meiringen. Therefore, regression and time-series analysis are off the table and would not add additional insight.
+The count of snow days in both locations are decreasing substantially since 1980. Possible explanations for this behaviour will be discussed and analysed in the coming sections. (Remo)
 
 #### 3.2. Temperature (Daniel)
 Temperature data was extracted from the dataportal of MeteoSwiss, the swiss federal office for meteorology and climatology. Through the [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741) portal data can be accessed, filtered and downloaded. The  data on temperature used for the first stage of the analysis consists of measures of the minimum temperature on any given day measured two meters above ground, from the year 1950 until the end of 2021 in Arosa and 1958 until the end of 2021 in Meiringen / Hasliberg. The reason for using the daily minimum temperature instead of the daily average or any other available measure, lies in the future potential to use the downloaded data to estimate potential for the use of snow cannons on the given days. 
