@@ -91,7 +91,9 @@ Under the following link the simulation can be started: [Loopy](https://ncase.me
 
 ### 3. Data
 #### 3.1. Snow Days
-xxx (Remo)
+For our analysis, we opted for the amount of snow that is comparable between regions. Therefore, we needed the same measurement for each region. The biggest database of meteorological comes from [MeteoSchweiz](https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-lufttemperatur-10min), which hosts a special portal to make the data available to researcher and students alike called [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741). Luckily, the ordered access was processed within 2 hours and we had a vast amount of data to look into.
+
+We found comparable data with the measurement "Air temperature 2 m above ground; daily minimum".
 
 #### 3.2. Temperature (Daniel)
 Temperature data was extracted from the dataportal of MeteoSwiss, the swiss federal office for meteorology and climatology. Through the [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741) portal data can be accessed, filtered and downloaded. The  data on temperature used for the first stage of the analysis consists of measures of the minimum temperature on any given day measured two meters above ground, from the year 1950 until the end of 2021 in Arosa and 1958 until the end of 2021 in Meiringen / Hasliberg. The reason for using the daily minimum temperature instead of the daily average or any other available measure, lies in the future potential to use the downloaded data to estimate potential for the use of snow cannons on the given days. 
