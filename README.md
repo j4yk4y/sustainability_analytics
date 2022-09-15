@@ -120,7 +120,7 @@ Summer             |  Winter
 
 **Meiringen/Hasliberg**
 <br>
-In Meiringen and Hasliberg the summer and winter season have peaks around 22,250 overnight stays. Because summer season is slightly longer, there are more overnight stays in this period. In addition, there is a difference between spring and autumn in this region. In spring there are significantly higher numbers of overnight stays than in autumn, which can also be considered in the seasonal component.
+In Meiringen and Hasliberg the summer and winter season have peaks around 22,250 overnight stays a month. Because summer season is slightly longer, there are more overnight stays in this period. In addition, there is a difference between spring and autumn in this region. In spring there are significantly higher numbers of overnight stays than in autumn, which can also be seen in the seasonal component.
 <br><br>
 ![Meiringen_Decomp](sites/output/m_overnight_decomp.png)
 <br>
