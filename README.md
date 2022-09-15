@@ -75,9 +75,11 @@ xxx (Simon)
 #### 2.1 Stakeholder Analysis (Daniel)
 The overall framework of the project also includes a variety of stakeholders with different interests and goals. To picture the different groups, we created a Stakeholder-map:
 <br>
+
 ![Stakeholders](sites/images/Stakeholder_Map.png)
 
-The map is split into three overall categories: direct, indirect and unintended Stakeholders. These groups are then again split into three categories of their relationship towards the project: accountable, to be consulted and to be informed. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. 
+The map is split into three overall categories: **direct, indirect and unintended Stakeholders**. These groups are then again split into three categories of their relationship towards the project: **accountable, to be consulted and to be informed**. The most important, direct Stakeholders are the two resorts themselves, Arosa & Meiringen / Hasliberg. They are the initiators of the project, steer important decisions and will employ potential future solutions. Other important stakeholders are tourists and guests that visit the resorts in both summer and winter as well as local businesses, that are dependent on those guests in combination with what the resorts can offer. Next to that, wildlife, environmental organizations and society in general are also affected and should clearly be taken into account when designing potential future solutions.
+<br>
 
 #### 2.2 System Dynamics
 As a continuation of the stakeholder analysis, the relationships between the various stakeholders can be modeled. In this report, we have created a system model to show the impact of snow shortage on the economic success of a region. 
@@ -92,7 +94,7 @@ Under the following link the simulation can be started: [Loopy](https://ncase.me
 xxx (Remo)
 
 #### 3.2. Temperature (Daniel)
-xxx (Daniel)
+Temperature data was extracted from the dataportal of MeteoSwiss, the swiss federal office for meteorology and climatology. Through the [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741) portal data can be accessed, filtered and downloaded. The  data on temperature used for the first stage of the analysis consists of measures of the minimum temperature on any given day measured two meters above ground, from the year 1950 until the end of 2021 in Arosa and 1958 until the end of 2021 in Meiringen / Hasliberg. The reason for using the daily minimum temperature instead of the daily average or any other available measure, lies in the future potential to use the downloaded data to estimate potential for the use of snow cannons on the given days. 
 
 #### 3.3. Overnight Stays
 For overnight stays, data was drawn from the [STAT-TAB](https://www.bfs.admin.ch/bfs/en/home/services/recherche/stat-tab-online-data-search.html) of the Federal Statistical Office.
@@ -107,7 +109,21 @@ For each season, the trend between 2013 and 2019 was analyzed. The years affecte
 xxx (Remo)
 
 #### 4.2 Temperature
-xxx (Daniel)
+The Analysis of the temperature was conducted through an aggregation as a mean of all temperature measurements within any given year. The resulting datapoints were then plotted and visually analyzed for obvious patterns. 
+
+##### 4.2.1 Arosa
+![Arosa_Temperature](sites/output/a_yearly_mean_temp.png)
+<br>
+
+The data on temperature in Arosa shows a very clear upwards-trend in the last decades. This trend is seems very strong and almost linear in a long term view. Average yearly minimum temperature has increased from about -1.4°C in 1950 to about 1.4°C degrees in 2021. 
+<br>
+
+##### 4.2.2 Meiringen / Hasliberg
+![Arosa_Temperature](sites/output/m_yearly_mean_temp.png)
+<br>
+
+The data on temperature in Meiringen draws a different picture than in Arosa. Although a slight temperature increase from a yearly minimum average of about 4.2°C to about 4.3°C is visible, there is no clear upwards trend but rather a constant development of the temperature observable over the years. The underlying reasons for this behaviour are not clear at this point of time and require further investigation in the future.
+<br>
 
 #### 4.3 Overnight Stays
 **Arosa**
