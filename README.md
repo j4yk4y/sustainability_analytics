@@ -139,10 +139,16 @@ Summer             |  Winter
 
 ### 5. Conclusion
 #### 5.1. Outlook
-xxx (Remo)
+Our analysis shows a clear trend towards less snow days in the touristic regions Arosa and Meiringen. When we consider the fact that the temperature behaves differently in Arosa and Meiringen, we rule out the temperature as a direct cause for this rapid decrease in snow days since 1980. There might still be indirect effects caused by the rise of average temperature on a global scale.
+
+Thus, future research should focus on other direct factors that might reduce the total count of snowdays such as the frequency and moisture level of the southwind in december.
+
+Nethertheless, the tourisitc regions are facing less snow days each year and should therefore build resilience for such weather conditions. The expansion of touristic activities in summer is therefore advised to keep these destinations attractive for tourists and with that keep local businesses that depend on the tourisitc regions attractiveness.
+
+Furthermore, the need for snow canons will naturally increase, which is very energy and resource intensive. Energy prices are expected to rise, which is why we believe that winter tourism is going to be less profitable and also less environmental.
 
 #### 5.2. Limitations
-xxx (Remo)
+With the work presented we visualize the trends which affect the touristic regions Meiringen and Arosa. These insights are very useful for investors and are beneficial for the SDGs. However, there are other measurements which should be considered instead of the daily minimum of temperature. For example, the daily average will possibly yeald more accurate results in the analysis. Furthermore, this study does not include any indirect and direct effects of historical changes in wind directions.
 
 #### 5.3. Reflection/Learnings
 xxx (Wer Lust hat)
