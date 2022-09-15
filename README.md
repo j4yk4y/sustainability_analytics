@@ -37,7 +37,7 @@ Alpine regions and ski resorts are situated around mountains, in this case withi
 xxx (alle)
 
 #### 1.4 Sustainability trends
-This project will touch on some sustainability trends. On the one hand, there is the global trend to reduce greenhouse gas emission in order to mitigate climate change. On the other hand there is ESG Investing that promotes sustainability through business. Ski resorts are strongly affected by both trends, as they rely on a lot of energy to operate the chairlifts and produce artificial snow, especially in winter. Moreover, it is important for the whole region to find investors. As ESG investing becomes more and more important, innovative solutions that combine sustainability and business success are needed.
+This project will touch on some sustainability trends. On the one hand, there is the global trend to reduce greenhouse gas emission in order to mitigate climate change. On the other hand there is ESG Investing that promotes sustainability through business. Ski resorts are strongly affected by both trends, as they rely on a lot of energy to operate the chairlifts and produce artificial snow, especially in winter. Moreover, it is important for the whole region to find investors. As ESG investing becomes more and more important, innovative solutions that combine sustainability and business success are needed ([source](https://explodingtopics.com/blog/sustainability-trends)).
 
 ### 2. Methods
 #### 2.1 Stakeholder Analysis (Daniel)
