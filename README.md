@@ -149,7 +149,6 @@ With the work presented we visualize the trends which affect the touristic regio
 This report was very insightful and important to us. We understand, that in order to change the world for the better, it is not only wishful-thinking that helps us out of the climat crisis but rather improving complex systems. For this reason, we also focused on the role of the investors in this complex system and show them not only economic reasons, but also environmental reasons not to invest in technical snow and resource hungry assets.
 We learned, that complex systems need to be assesed very carefully before making reccomendations. Furthermore, data is not always in good shape, even if it is collected by an official, trustworthy institution like MeteoSchweiz. Improving data quality of susch vast amounts of data is a challenge in itself.
 
-
 ## Appendix
 ### Short introduction to Git:
 
