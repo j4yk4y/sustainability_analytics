@@ -15,7 +15,7 @@ def app():
 
     with col1:
         st.subheader("Arosa")
-        image = Image.open("images/arosa.jpg")
+        image = Image.open("sites/images/arosa.jpg")
         st.image(image)
         data = {'Info': ['Canton', 'Population', 'Elevation', 'Website'],
                 ' ': ["Grisons", "3'132", "1'775 m.a.s.l.", "https://www.gemeindearosa.ch"]}
@@ -24,7 +24,7 @@ def app():
 
     with col2:
         st.subheader("Meiringen/Hasliberg")
-        image = Image.open("images/meiringen.jpg")
+        image = Image.open("sites/images/meiringen.jpg")
         st.image(image)
         data = {'Info': ['Canton', 'Population', 'Elevation', 'Website'],
                 ' ': ["Bern", "4'666", "595 m.a.s.l.", "https://www.meiringen.ch"]}

@@ -9,30 +9,30 @@ def app():
     col1, col2 = st.columns(2)
 
     with col1:
-        image = Image.open("images/arosa.jpg")
+        image = Image.open("sites/images/arosa.jpg")
         st.image(image)
 
     with col2:
         st.write(" ")
         st.write(" ")
-        image = Image.open("images/arosa_logo.png")
+        image = Image.open("sites/images/arosa_logo.png")
         st.image(image)
 
     st.write("--------------------")
 
     st.title("Snow Days")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("output/Count of Snow Days in Arosa.png")
+    image = Image.open("sites/output/Count of Snow Days in Arosa.png")
     st.image(image, use_column_width="always")
 
-    image = Image.open("output/TrendOfNaturalSnowArosa.png")
+    image = Image.open("sites/output/TrendOfNaturalSnowArosa.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")
 
     st.title("Temperature")
     st.subheader("Overview 1950 - 2022")
-    image = Image.open("output/arosa_yearly_mean.png")
+    image = Image.open("sites/output/a_yearly_mean_temp.png")
     st.image(image, use_column_width="always")
 
     st.write("--------------------")
@@ -41,25 +41,25 @@ def app():
 
     st.subheader("Overview 2013 - 2022")
 
-    image = Image.open("output/a_overnight_chart.png")
+    image = Image.open("sites/output/a_overnight_chart.png")
     st.image(image)
 
-    image = Image.open("output/a_overnight_decomp.png")
+    image = Image.open("sites/output/a_overnight_decomp.png")
     st.image(image)
 
-    image = Image.open("output/a_overnight_tsa.png")
+    image = Image.open("sites/output/a_overnight_tsa.png")
     st.image(image)
     col1, col2, col3 = st.columns(3)
     with col1:
         if st.button('PACF'):
-            image = Image.open("output/a_overnight_pacf.png")
+            image = Image.open("sites/output/a_overnight_pacf.png")
             st.image(image)
         else:
             pass
 
     with col2:
         if st.button('ACF'):
-            image = Image.open("output/a_overnight_acf.png")
+            image = Image.open("sites/output/a_overnight_acf.png")
             st.image(image)
         else:
             pass
@@ -76,14 +76,14 @@ def app():
         ("Summer","Winter"))
 
     if option == "Summer":
-        image = Image.open("output/a_overnight_s_chart.png")
+        image = Image.open("sites/output/a_overnight_s_chart.png")
         st.image(image)
-        image = Image.open("output/a_overnight_s_trend.png")
+        image = Image.open("sites/output/a_overnight_s_trend.png")
         st.image(image)
     elif option == "Winter":
-        image = Image.open("output/a_overnight_w_chart.png")
+        image = Image.open("sites/output/a_overnight_w_chart.png")
         st.image(image)
-        image = Image.open("output/a_overnight_w_trend.png")
+        image = Image.open("sites/output/a_overnight_w_trend.png")
         st.image(image)
     else:
         st.warning("something went wrong.")
