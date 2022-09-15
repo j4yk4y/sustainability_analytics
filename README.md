@@ -160,7 +160,7 @@ git clone https://github.com/j4yk4y/sustainability_analytics.git
 
 **Work mit Git**
 
-- git pull: download Repo
+- git pull: used to fetch and download content from a remote repository and immediately update the local repository to match that content
 - git add "filename.xy": If a file has been changed, you should write this command
 - git commit -m "write here what has been changed"
 - git push: Gives the command to upload the changes to the main fork
