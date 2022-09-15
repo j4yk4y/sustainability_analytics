@@ -104,7 +104,7 @@ The data on temperature in Meiringen draws a different picture than in Arosa. Al
 <br>
 
 #### 4.3 Overnight Stays
-For overnight stays there is a strong seasonality with peaks during summer and winter vacation season. Also, the consequences of the Corona pandemic can be analyzed in 2020, 2021 and 2022. For the tourism industry, this pandemic was a black swan event, which had a disproportionate role and was hard-to-predict.
+For overnight stays there is a strong seasonality with peaks during the summer and winter vacation season. Also, the consequences of the Corona pandemic can be analyzed in 2020, 2021 and 2022. For the tourism industry, this pandemic was a black swan event, which had a disproportionate role and was hard-to-predict.
 Some initial data from Switzerland as a whole has shown that overnight stays by foreign tourists have decreased by 56% in 2020 ([source](https://www.swissinfo.ch/eng/business/data-shows-dramatic-impact-of-covid-on-swiss-tourism/46741986)).
 
 **Arosa**
