@@ -1,5 +1,5 @@
 # Sustainability Analytics
-## ![Presentation](SUA_Team_5_presentation.pdf)
+### [Link to Presentation](/sites/other/SUA_Team_5_presentation.pdf)
 ## Report - Sustainable Ski Resorts - Arosa & Meiringen / Hasliberg
 ### 1. Introduction to the topic
 During recent times, everyone can feel the impact of global warming on the planet and our everyday lifes. Although western societies are privileged in terms of their capacities and resources to take measures against global warming, they are also highly responsible to do so- mainly, because they emitted a large portion of the artificially released atmospheric greenhouse gases, both in the past and today. According to Lenzen et al. (2018) global tourism is the source of about 8% of human-made CO<sub>2</sub> emissions, with growing tendency. Although the share of alpine tourism to that number is not fully clear, it is one of the main touristic branches in Switzerland and therefore offers potential for our society to have an impact on global emission reduction. Furthermore, it has an impact on regional biodiversity, energy consumption, noise pollution, water usage as well as contamination levels of soil and ground. At the same time, tourism is one of the main sources of income for many people, also in Switzerland.
