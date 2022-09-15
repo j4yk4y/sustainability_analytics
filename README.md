@@ -113,7 +113,7 @@ In the winter vacation season overnight stays were historically around 80,000, w
 <br><br>
 ![Arosa_Decomp](sites/output/a_overnight_decomp.png)
 <br>
-Looking at the two seasons from 2013 to 2019, one can see a very consistent trend in summer, while winter overnight stays are slightly decreasing. In addition, it is visually apparent that the ratio of the summer trend is not linear and one should take a different trend line.
+Looking at the two seasons from 2013 to 2019, one can see a very consistent trend in summer, while winter overnight stays are slightly decreasing. In addition, it is visually apparent that the ratio of the summer trend is not linear and one could take a different trend line.
 <br>
 
 Summer             |  Winter
@@ -121,13 +121,14 @@ Summer             |  Winter
 ![Arosa_Summer](sites/output/a_overnight_s_trend.png)  |  ![Arosa_Winter](sites/output/a_overnight_w_trend.png)
 <br>
 
-
 **Meiringen/Hasliberg**
 <br>
-xxx
+In Meiringen and Hasliberg the summer and winter season have peaks around 22,250 overnight stays. Because the summer season is slightly longer, there are more overnight stays in this period. In addition, there is a difference between spring and autumn in this region. In spring there are significantly higher numbers of overnight stays than in autumn, which can also be considered in the seasonal component.
 <br><br>
 ![Meiringen_Decomp](sites/output/m_overnight_decomp.png)
-
+<br>
+Looking at the two seasons from 2013 to 2019, one can see a very consistent trend in winter, while summer overnight stays are slightly decreasing.
+<br>
 
 Summer             |  Winter
 :-------------------------:|:-------------------------:
