@@ -1,33 +1,4 @@
 # Sustainability Analytics
-
-### Kurze Einführung in Git:
-
-**Init**
-```bash
-git clone https://github.com/j4yk4y/sustainability_analytics.git
-```
-
-**Arbeiten mit Git**
-
-- git pull: lädt die neuste Versionm des Repo herunter
-- git add "Dateiname.xy": Wenn eine Datei geändert wurde, muss man diesen Befehl schreiben
-- git commit -m "hier schreiben, was geändert wurde"
-- git push: Gibt den Befehl, die Änderungen in die Main Fork hochzuladen
-
-### Instruction to open the Dashboard
-
-```bash
-pip install -r requirements.txt
-```
-
-```python
-streamlit run app.py
-```
-
-#### Setup 
-packages from requirements.txt\
-Python 3.9
-
 ## Report - Sustainable Ski Resorts - Arosa & Meiringen / Haslital
 ### 1. Introduction to the topic (Daniel)
 During recent times, everyone can feel the impact of global warming on the planet and our everyday lifes. Although western societies are privileged in terms of their capacities and resources to take measures against global warming, they are also highly responsible to do so- mainly, because they emitted a large portion of the artificially released atmospheric greenhouse gases, both in the past and today. According to Lenzen et al. (2018) global tourism is the source of about 8% of human-made CO<sub>2</sub> emissions, with growing tendency. Although the share of alpine tourism to that number is not fully clear, it is one of the main touristic branches in Switzerland and therefore offers potential for our society to have an impact on global emission reduction. Furthermore, it has an impact on regional biodiversity, energy consumption, noise pollution, water usage as well as contamination levels of soil and ground. At the same time, tourism is one of the main sources of income for many people, also in Switzerland.
@@ -170,6 +141,34 @@ xxx (Remo)
 
 #### 5.3. Reflection/Learnings
 xxx (Wer Lust hat)
+
+
+## Appendix
+
+### Short introduction to Git:
+
+**Init**
+```bash
+git clone https://github.com/j4yk4y/sustainability_analytics.git
+```
+
+**Arbeiten mit Git**
+
+- git pull: lädt die neuste Versionm des Repo herunter
+- git add "Dateiname.xy": Wenn eine Datei geändert wurde, muss man diesen Befehl schreiben
+- git commit -m "hier schreiben, was geändert wurde"
+- git push: Gibt den Befehl, die Änderungen in die Main Fork hochzuladen
+
+### Instruction to open the Dashboard
+First a Virtual Environment (venv) has to be created. Then run the two enclosed commands. 
+
+```bash
+pip install -r requirements.txt
+```
+
+```python
+streamlit run app.py
+```
 
 ## Requirements
 - Contain results (don't aspire too high)
