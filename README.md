@@ -78,6 +78,8 @@ For each season, the trend between 2013 and 2019 was analyzed. The years affecte
 #### 4.1 Snow Days
 In order to analyse the snow factor for tourisitc regions like Meiringen and Arosa, we are not particullarly interested in the total amount of snow, but rather the count of days, on which winter sports are possible. In general, winter sports is possible from 40 cm of natural snow and 20 cm of technical snow onwards ([source](https://www.slf.ch/de/schnee/schneesport/schnee-und-ressourcenmanagement/pistenpraeparation.html)).
 The data dates back to 1950 for Arosa and 1960 for Meiringen. The data for Arosa was quite incomplete and offered much fewer data points in summer. We used interpolation for missing values to counter this behaviour.
+![Count of Snow Days Arosa](sites/output/Count%20of%20Snow%20Days%20in%20Arosa.png)
+![Count of Snow Days Meiringen](sites/output/Count%20of%20Snow%20Days%20in%20Meiringen.png)
 Looking at the graphs, it is clear that a regression analyses was obsolete since there seems to be a heavy change in behaviour at around 1980 for both Arosa and Meiringen. Therefore, regression and time-series analysis are off the table and would not add additional insight.
 The count of snow days in both locations are decreasing substantially since 1980. Possible explanations for this behaviour will be discussed and analysed in the coming sections. (Remo)
 
@@ -132,13 +134,20 @@ Summer             |  Winter
 
 ### 5. Conclusion
 #### 5.1. Outlook
-xxx (Remo)
+Our analysis shows a clear trend towards less snow days in the touristic regions Arosa and Meiringen. When we consider the fact that the temperature behaves differently in Arosa and Meiringen, we rule out the temperature as a direct cause for this rapid decrease in snow days since 1980. There might still be indirect effects caused by the rise of average temperature on a global scale.
+
+Thus, future research should focus on other direct factors that might reduce the total count of snowdays such as the frequency and moisture level of the southwind in december.
+
+Nethertheless, the tourisitc regions are facing less snow days each year and should therefore build resilience for such weather conditions. The expansion of touristic activities in summer is therefore advised to keep these destinations attractive for tourists and with that keep local businesses that depend on the tourisitc regions attractiveness.
+
+Furthermore, the need for snow canons will naturally increase, which is very energy and resource intensive. Energy prices are expected to rise, which is why we believe that winter tourism is going to be less profitable and also less environmental.
 
 #### 5.2. Limitations
-xxx (Remo)
+With the work presented we visualize the trends which affect the touristic regions Meiringen and Arosa. These insights are very useful for investors and are beneficial for the SDGs. However, there are other measurements which should be considered instead of the daily minimum of temperature. For example, the daily average will possibly yeald more accurate results in the analysis. Furthermore, this study does not include any indirect and direct effects of historical changes in wind directions.
 
 #### 5.3. Reflection/Learnings
-xxx (Wer Lust hat)
+This report was very insightful and important to us. We understand, that in order to change the world for the better, it is not only wishful-thinking that helps us out of the climat crisis but rather improving complex systems. For this reason, we also focused on the role of the investors in this complex system and show them not only economic reasons, but also environmental reasons not to invest in technical snow and resource hungry assets.
+We learned, that complex systems need to be assesed very carefully before making reccomendations. Furthermore, data is not always in good shape, even if it is collected by an official, trustworthy institution like MeteoSchweiz. Improving data quality of susch vast amounts of data is a challenge in itself.
 
 
 ## Appendix
