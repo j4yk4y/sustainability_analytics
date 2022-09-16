@@ -1,4 +1,5 @@
 # Sustainability Analytics
+### [Link to Presentation](/sites/other/SUA_Team_5_presentation.pdf)
 ## Report - Sustainable Ski Resorts - Arosa & Meiringen / Hasliberg
 ### 1. Introduction to the topic
 During recent times, everyone can feel the impact of global warming on the planet and our everyday lifes. Although western societies are privileged in terms of their capacities and resources to take measures against global warming, they are also highly responsible to do so- mainly, because they emitted a large portion of the artificially released atmospheric greenhouse gases, both in the past and today. According to Lenzen et al. (2018) global tourism is the source of about 8% of human-made CO<sub>2</sub> emissions, with growing tendency. Although the share of alpine tourism to that number is not fully clear, it is one of the main touristic branches in Switzerland and therefore offers potential for our society to have an impact on global emission reduction. Furthermore, it has an impact on regional biodiversity, energy consumption, noise pollution, water usage as well as contamination levels of soil and ground. At the same time, tourism is one of the main sources of income for many people, also in Switzerland.
@@ -37,7 +38,7 @@ Alpine regions and ski resorts are situated around mountains, in this case withi
 This project will touch on some sustainability trends. On the one hand, there is the global trend to reduce greenhouse gas emission in order to mitigate climate change. On the other hand there is ESG Investing that promotes sustainability through business. Ski resorts are strongly affected by both trends, as they rely on a lot of energy to operate the chairlifts and produce artificial snow, especially in winter. Moreover, it is important for the whole region to find investors. As ESG investing becomes more and more important, innovative solutions that combine sustainability and business success are needed ([source](https://explodingtopics.com/blog/sustainability-trends)).
 
 ### 2. Methods
-#### 2.1. Stakeholder Analysis (Daniel)
+#### 2.1. Stakeholder Analysis
 The overall framework of the project also includes a variety of stakeholders with different interests and goals. To picture the different groups, we created a Stakeholder-map:
 <br>
 
@@ -60,7 +61,7 @@ For our analysis, we opted for the amount of snow that is comparable between reg
 
 We found comparable data with the measurement "Air temperature 2 m above ground; daily minimum".
 
-#### 3.2. Temperature (Daniel)
+#### 3.2. Temperature
 Temperature data was extracted from the dataportal of MeteoSwiss, the swiss federal office for meteorology and climatology. Through the [IDAWEB](https://gate.meteoswiss.ch/idaweb/login.do;idaweb=84I8px26Yhs5I0nAJIGHDEPXlb8Fh0jtmQZqOLbk_O_GD2F937Is!850991741) portal data can be accessed, filtered and downloaded. The  data on temperature used for the first stage of the analysis consists of measures of the minimum temperature on any given day measured two meters above ground, from the year 1950 until the end of 2021 in Arosa and 1958 until the end of 2021 in Meiringen / Hasliberg. The reason for using the daily minimum temperature instead of the daily average or any other available measure, lies in the future potential to use the downloaded data to estimate potential for the use of snow cannons on the given days. 
 
 #### 3.3. Overnight Stays
@@ -87,8 +88,8 @@ The count of snow days in both locations are decreasing substantially since 1980
 The Analysis of the temperature was conducted through an aggregation as a mean of all temperature measurements within any given year. The resulting datapoints were then plotted and visually analyzed for obvious patterns. 
 
 **Arosa**
+
 ![Arosa_Temperature](sites/output/a_yearly_mean_temp.png)
-<br>
 
 The data on temperature in Arosa shows a very clear upwards-trend in the last decades. This trend is seems very strong and almost linear in a long term view. Average yearly minimum temperature has increased from about -1.4°C in 1950 to about 1.4°C degrees in 2021. 
 <br>
