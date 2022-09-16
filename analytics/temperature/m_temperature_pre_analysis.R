@@ -4,7 +4,7 @@ library(psych)
 library(magrittr)
 require(zoo)
 require(lubridate)
-PATH <- 'ownCloud/08_shared_folders/sustainability_analytics/Meiringen_Disentis/order_105773_data.txt'
+PATH <- 'order_105773/order_105773_data.txt'
 
 data <- read.csv(PATH, sep = ";")
 
